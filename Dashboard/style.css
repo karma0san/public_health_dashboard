@@ -1,0 +1,88 @@
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background: #F4F6F7; /* Light Gray background */
+    padding: 20px;
+    color: #2C3E50; /* Dark Blue for text */
+}
+
+/* Header styling */
+h1 {
+    text-align: center;
+    color: #2C3E50; /* Dark Blue */
+    font-size: 2.5em;
+}
+
+/* Styling for the navigation bar */
+.navbar {
+    background-color: #2C3E50; /* Dark Blue */
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #3498DB; /* Light Blue */
+    color: white;
+}
+
+.navbar a.active {
+    background-color: #2980B9; /* Professional Blue for active tab */
+    color: white;
+}
+
+/* Styling for the ANOVA result sections */
+.anova-section {
+    margin: 30px 0;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #BDC3C7; /* Light Gray for borders */
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #3498DB; /* Light Blue */
+    color: white;
+}
+
+/* Table row hover effect */
+tbody tr:hover {
+    background-color: #F4F6F7; /* Light Gray background */
+}
+
+/* Buttons */
+button {
+    background-color: #27AE60; /* Light Green */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #2ECC71; /* Slightly darker green */
+}
