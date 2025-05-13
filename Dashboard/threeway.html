@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ANOVA Results</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="summary.html" >Summary</a>
+        <a href="index.html" >One-Way ANOVA</a>
+        <a href="twoway.html">Two-Way ANOVA</a>
+        <a href="threeway.html" class="active">Three-Way ANOVA</a>
+    </div>
+
+    <!-- Page Header -->
+    <h1>Three-Way ANOVA Results Viewer</h1>
+
+    <!-- Container for ANOVA results -->
+    <table id="anovaTable">
+        <thead>
+            <tr>
+                <th>Source</th>
+                <th>Sum Sq</th>
+                <th>DF</th>
+                <th>F</th>
+                <th>PR(>F)</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <script src="threeway_script.js"></script>
+</body>
+</html>
