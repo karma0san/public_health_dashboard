@@ -1,100 +1,59 @@
 [
+
     {
-        "index": "Sex",
-        "sum_sq": 0.07166573021901905,
-        "df": 1.0,
-        "F": 0.014989627949771133,
-        "PR(>F)": 0.9025999420048904
-    },
-    {
-        "index": "SES",
-        "sum_sq": 7.940091961652344,
-        "df": 2.0,
-        "F": 0.830376136742071,
-        "PR(>F)": 0.43641188588800717
-    },
-    {
-        "index": "Smoking",
-        "sum_sq": 7.057837030401548,
-        "df": 1.0,
-        "F": 1.4762195388579245,
-        "PR(>F)": 0.22486999467417929
-    },
-    {
-        "index": "Alcohol",
-        "sum_sq": 89.9189808160724,
-        "df": 15.0,
-        "F": 1.2538322607252084,
-        "PR(>F)": 0.22699808587921338
-    },
-    {
-        "index": "Physical",
-        "sum_sq": 0.13899848332852707,
-        "df": 1.0,
-        "F": 0.02907296896730909,
-        "PR(>F)": 0.8646711685766753
-    },
-    {
-        "index": "Sex:SES:Smoking",
+        "index": "Sex, SES, Smoking and Glucose",
         "sum_sq": 21.437045349717707,
         "df": 7.0,
         "F": 0.6405399328095005,
         "PR(>F)": 0.7224281441564366
     },
     {
-        "index": "Sex:SES:Alcohol",
+        "index": "Sex, SES, Alcohol and Glucose",
         "sum_sq": 327.80625620917283,
         "df": 75.0,
         "F": 0.9141875398773384,
         "PR(>F)": 0.6792036865280552
     },
     {
-        "index": "Sex:SES:Physical",
+        "index": "Sex, SES, Physical Activity and Glucose",
         "sum_sq": 12.286859253574086,
         "df": 5.0,
         "F": 0.5139847129706652,
         "PR(>F)": 0.7657837233449037
     },
     {
-        "index": "Sex:Smoking:Alcohol",
+        "index": "Sex, Smoking, Alcohol and Glucose",
         "sum_sq": 190.87308662662542,
         "df": 30.0,
         "F": 1.3307692744326733,
         "PR(>F)": 0.11439515992626789
     },
     {
-        "index": "Sex:Smoking:Physical",
+        "index": "Sex, Smoking, Physical Activity and Glucose",
         "sum_sq": 2.7360953832010466,
         "df": 2.0,
         "F": 0.2861413098277891,
         "PR(>F)": 0.7512642970444725
     },
     {
-        "index": "SES:Smoking:Alcohol",
+        "index": "SES, Smoking, Alcohol and Glucose",
         "sum_sq": 218.94158800147943,
         "df": 30.0,
         "F": 1.5264631769580415,
         "PR(>F)": 0.03764277270176621
     },
     {
-        "index": "SES:Alcohol:Physical",
+        "index": "SES, Alcohol, Physical Activity and Glucose",
         "sum_sq": 195.24906631670547,
         "df": 45.0,
         "F": 0.9075191022057008,
         "PR(>F)": 0.6457681176081449
     },
     {
-        "index": "Smoking:Alcohol:Physical",
+        "index": "Smoking, Alcohol, Physical Activity and Glucose",
         "sum_sq": 75.6557800975955,
         "df": 15.0,
         "F": 1.054945873894312,
         "PR(>F)": 0.39643778026932663
-    },
-    {
-        "index": "Residual",
-        "sum_sq": 2725.1821300517713,
-        "df": 570.0,
-        "F": "NaN",
-        "PR(>F)": "NaN"
     }
 ]

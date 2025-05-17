@@ -1,82 +1,39 @@
 {
-    "Sex": [
+    "": [
         {
-            "index": "C(Sex)",
+            "index": "Sex and Glucose",
             "sum_sq": 0.0020257211538448,
             "df": 1.0,
             "F": 0.0004162328004386476,
             "PR(>F)": 0.9837279604931519
         },
         {
-            "index": "Residual",
-            "sum_sq": 3883.7051742788467,
-            "df": 798.0,
-            "F": "NaN",
-            "PR(>F)": "NaN"
-        }
-    ],
-    "SES": [
-        {
-            "index": "C(SES)",
+            "index": "SES and Glucose",
             "sum_sq": 12.043788321808737,
             "df": 2.0,
             "F": 1.2396350446591216,
             "PR(>F)": 0.29004739603944046
         },
         {
-            "index": "Residual",
-            "sum_sq": 3871.6634116781916,
-            "df": 797.0,
-            "F": "NaN",
-            "PR(>F)": "NaN"
-        }
-    ],
-    "Smoking": [
-        {
-            "index": "C(Smoking)",
+            "index": "Smoking and Glucose",
             "sum_sq": 4.353405344585119,
             "df": 1.0,
             "F": 0.8955144719631084,
             "PR(>F)": 0.34427375180537656
         },
         {
-            "index": "Residual",
-            "sum_sq": 3879.353794655415,
-            "df": 798.0,
-            "F": "NaN",
-            "PR(>F)": "NaN"
-        }
-    ],
-    "Alcohol": [
-        {
-            "index": "C(Alcohol)",
+            "index": "Alcohol and Glucose",
             "sum_sq": 90.25550495341902,
             "df": 15.0,
             "F": 1.2435519868071259,
             "PR(>F)": 0.233057686941988
         },
         {
-            "index": "Residual",
-            "sum_sq": 3793.4516950465804,
-            "df": 784.0,
-            "F": "NaN",
-            "PR(>F)": "NaN"
-        }
-    ],
-    "Physical": [
-        {
-            "index": "C(Physical)",
+            "index": "Physical Activity and Glucose",
             "sum_sq": 0.16819999999999752,
             "df": 1.0,
             "F": 0.0345621867065061,
             "PR(>F)": 0.852563305485333
-        },
-        {
-            "index": "Residual",
-            "sum_sq": 3883.5390000000007,
-            "df": 798.0,
-            "F": "NaN",
-            "PR(>F)": "NaN"
         }
     ]
 }

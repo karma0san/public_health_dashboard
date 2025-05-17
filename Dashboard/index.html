@@ -8,19 +8,38 @@
 <body>
     <!-- Navigation Bar -->
     <div class="navbar">
-        <a href="summary.html" >Summary</a>
-        <a href="index.html" class="active">One-Way ANOVA</a>
+        <a href="index.html" class="active">Summary</a>
+        <a href="oneway.html" >One-Way ANOVA</a>
         <a href="twoway.html">Two-Way ANOVA</a>
-        <a href="threeway.html">Three-Way ANOVA</a>
+        <a href="threeway.html" >Three-Way ANOVA</a>
+        <a href="#" >Dashboard</a>
     </div>
 
-    <!-- Page Header -->
-    <h1>One-Way ANOVA Results Viewer</h1>
-
     <!-- Container for ANOVA results -->
-    <div id="anova-container"></div>
+     <h1>Statistical Data Overview</h1>
 
-    <!-- Link to external JS file -->
-    <script src="script.js"></script>
+    <div class="data-table">
+        <h2>Summary Statistics</h2>
+        <table id="stats-table">
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Sex</th>
+                    <th>Age</th>
+                    <th>SES</th>
+                    <th>Smoking</th>
+                    <th>Alcohol</th>
+                    <th>Physical Activity</th>
+                    <th>Glucose</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data will be populated here using JavaScript -->
+            </tbody>
+        </table>
+    </div>
+
+
+    <script src="summary_script.js"></script>
 </body>
 </html>

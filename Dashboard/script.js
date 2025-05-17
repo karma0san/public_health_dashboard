@@ -17,16 +17,13 @@ fetch('../oneway_anova_results.json')
     
     Object.keys(data).forEach(key => {
       const section = document.createElement('div');
-      section.classList.add('anova-section');
-
       const title = document.createElement('h2');
-      title.textContent = `One-Way ANOVA: ${key}`;
       section.appendChild(title);
 
       const table = document.createElement('table');
 
       // Table headers
-      const headers = ["Index", "Sum of Squares", "Degrees of Freedom (df)", "F Value", "P-Value (PR > F)"];
+      const headers = ["Index", "Sum of Squares", "Degrees of Freedom", "F Value", "P-Value (PR > F)"];
       const thead = document.createElement('thead');
       const headRow = document.createElement('tr');
       headers.forEach(header => {
