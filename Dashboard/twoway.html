@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ANOVA Results</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="index.html" >Summary</a>
+        <a href="oneway.html">One-Way ANOVA</a>
+        <a href="twoway.html" class="active">Two-Way ANOVA</a>
+        <a href="threeway.html">Three-Way ANOVA</a>
+        <a href="#" >Dashboard</a>
+    </div>
+
+    <!-- Page Header -->
+    <h1>Two-Way ANOVA Results Viewer</h1>
+
+    <!-- Container for ANOVA results -->
+    <h2 id="heading"></h2>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Relationship</th>
+                <th>Sum of Squares</th>
+                <th>Degrees of Freedom</th>
+                <th>F Value</th>
+                <th>P-Value (PR > F)</th>
+            </tr>
+        </thead>
+        <tbody id="anovaTableBody">
+            <!-- Data rows go here -->
+        </tbody>
+    </table>
+
+    <!-- Link to external JS file -->
+    <script src="twoway_script.js"></script>
+</body>
+
+</html>
